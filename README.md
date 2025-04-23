@@ -66,7 +66,7 @@ The model's accuracy and precision were deemed acceptable, and further tuning or
 ### 3. **Train the Model**
    - Run the train.py script to preprocess the data, train the Random Forest model, and save the model artifacts:
    ```bash
-     python train_model.py
+     python train.py
    ```
 
 ### 4. **Run the Flask App**
