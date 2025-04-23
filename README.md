@@ -65,14 +65,14 @@ The model's accuracy and precision were deemed acceptable, and further tuning or
 
 ### 3. **Train the Model**
    - Run the train.py script to preprocess the data, train the Random Forest model, and save the model artifacts:
-     ```bash
+   ```bash
      python train_model.py
-     ```
+   ```
 
 ### 4. **Run the Flask App**
    - After training the model, run the Flask web application using the following command:
-    ```bash
+   ```bash
     python app.py
-    ```
+   ```
    - This will start the Flask web server, and you can access the Titanic survival prediction form at http://127.0.0.1:5000/ in your browser.
 
