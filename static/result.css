@@ -1,28 +1,24 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styling */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #e6f2ff; /* Light blue background */
+    background-color: #e6f2ff; 
     color: #333;
     padding: 50px 0;
     text-align: center;
 }
 
-/* Header Styling */
 h1 {
     font-size: 40px;
-    color: #003366; /* Dark Blue for Titanic theme */
+    color: #003366;
     margin-bottom: 40px;
     font-family: 'Arial', sans-serif;
 }
 
-/* Result Box Styling */
 .result {
     background-color: #ffffff;
     padding: 30px;
@@ -37,13 +33,11 @@ h1 {
     text-align: center;
 }
 
-/* Bold Text for Prediction */
 .result strong {
     font-size: 28px;
-    color: #ff5733; /* Titanic red/orange for emphasis */
+    color: #ff5733; 
 }
 
-/* Link Styling */
 a {
     display: inline-block;
     margin-top: 30px;
@@ -68,8 +62,6 @@ a:active {
 }
 
 /* Responsive Design */
-
-/* Small Screens (Mobile) */
 @media (max-width: 600px) {
     body {
         padding: 20px;
@@ -94,7 +86,6 @@ a:active {
     }
 }
 
-/* Medium Screens (Tablets and larger mobile devices) */
 @media (min-width: 601px) and (max-width: 900px) {
     h1 {
         font-size: 35px;
@@ -115,7 +106,6 @@ a:active {
     }
 }
 
-/* Large Screens (Desktops) */
 @media (min-width: 901px) {
     h1 {
         font-size: 40px;
