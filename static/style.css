@@ -1,28 +1,24 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styling */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #e6f2ff; /* Light blue background */
+    background-color: #e6f2ff; 
     color: #333;
     padding: 50px 0;
     text-align: center;
 }
 
-/* Header Styling */
 h1 {
     font-size: 40px;
-    color: #003366; /* Dark Blue for Titanic theme */
+    color: #003366;
     margin-bottom: 30px;
     font-family: 'Arial', sans-serif;
 }
 
-/* Form Styling */
 form {
     background-color: #ffffff;
     padding: 30px;
@@ -34,17 +30,15 @@ form {
     text-align: left;
 }
 
-/* Form Elements Styling */
 label {
     font-size: 18px;
     font-weight: 600;
-    color: #003366; /* Matching the Titanic theme */
+    color: #003366;
     margin-bottom: 10px;
     display: block;
     text-align: left;
 }
 
-/* Input fields and Select box */
 input, select {
     width: 100%;
     padding: 12px;
@@ -53,20 +47,18 @@ input, select {
     border-radius: 8px;
     font-size: 16px;
     color: #333;
-    background-color: #f0f8ff; /* Light blue input background */
+    background-color: #f0f8ff; 
 }
 
-/* Select box and input focus effect */
 input:focus, select:focus {
     border-color: #005cbf;
     outline: none;
 }
 
-/* Button Styling */
 button {
     width: 100%;
     padding: 15px;
-    background-color: #003366; /* Titanic dark blue */
+    background-color: #003366;
     color: white;
     font-size: 18px;
     border: none;
@@ -84,7 +76,6 @@ button:active {
     transform: translateY(2px);
 }
 
-/* Special Styling for Labels */
 label[for="pclass"], label[for="sex"], label[for="age"], 
 label[for="sibsp"], label[for="parch"], label[for="fare"], 
 label[for="embarked"] {
@@ -93,7 +84,6 @@ label[for="embarked"] {
     margin-bottom: 8px;
 }
 
-/* Small Screens (Mobile) */
 @media (max-width: 600px) {
     body {
         padding: 20px;
@@ -108,15 +98,14 @@ label[for="embarked"] {
     }
 
     input, select, button {
-        font-size: 14px; /* Smaller input text size for small screens */
+        font-size: 14px;
     }
 
     label {
-        font-size: 14px; /* Adjusting label size for mobile */
+        font-size: 14px;
     }
 }
 
-/* Medium Screens (Tablets and larger mobile devices) */
 @media (min-width: 601px) and (max-width: 900px) {
     h1 {
         font-size: 35px;
@@ -127,7 +116,7 @@ label[for="embarked"] {
     }
 
     input, select, button {
-        font-size: 16px; /* Standard font size */
+        font-size: 16px; 
     }
 
     label {
@@ -135,7 +124,6 @@ label[for="embarked"] {
     }
 }
 
-/* Large Screens (Desktops) */
 @media (min-width: 901px) {
     h1 {
         font-size: 40px;
