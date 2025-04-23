@@ -57,3 +57,22 @@ The model's accuracy and precision were deemed acceptable, and further tuning or
 
    ```bash
    pip install -r requirements.txt
+   ```
+
+### 2. **Download Titanic Dataset**
+   - Download the Titanic dataset from Kaggle Titanic Competition.
+   - Save the dataset as train.csv in the data/ directory.
+
+### 3. **Train the Model**
+   - Run the train.py script to preprocess the data, train the Random Forest model, and save the model artifacts:
+     ```bash
+     python train_model.py
+     ```
+
+### 4. **Run the Flask App**
+   - After training the model, run the Flask web application using the following command:
+    ```bash
+    python app.py
+    ```
+   - This will start the Flask web server, and you can access the Titanic survival prediction form at http://127.0.0.1:5000/ in your browser.
+
