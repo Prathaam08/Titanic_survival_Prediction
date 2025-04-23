@@ -1,0 +1,155 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e6f2ff; /* Light blue background */
+    color: #333;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 40px;
+    color: #003366; /* Dark Blue for Titanic theme */
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Form Styling */
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Form Elements Styling */
+label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #003366; /* Matching the Titanic theme */
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+}
+
+/* Input fields and Select box */
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #003366;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f0f8ff; /* Light blue input background */
+}
+
+/* Select box and input focus effect */
+input:focus, select:focus {
+    border-color: #005cbf;
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #003366; /* Titanic dark blue */
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+    background-color: #005cbf;
+}
+
+button:active {
+    background-color: #004b99;
+    transform: translateY(2px);
+}
+
+/* Special Styling for Labels */
+label[for="pclass"], label[for="sex"], label[for="age"], 
+label[for="sibsp"], label[for="parch"], label[for="fare"], 
+label[for="embarked"] {
+    font-size: 16px;
+    color: #003366;
+    margin-bottom: 8px;
+}
+
+/* Small Screens (Mobile) */
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    input, select, button {
+        font-size: 14px; /* Smaller input text size for small screens */
+    }
+
+    label {
+        font-size: 14px; /* Adjusting label size for mobile */
+    }
+}
+
+/* Medium Screens (Tablets and larger mobile devices) */
+@media (min-width: 601px) and (max-width: 900px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    input, select, button {
+        font-size: 16px; /* Standard font size */
+    }
+
+    label {
+        font-size: 15px;
+    }
+}
+
+/* Large Screens (Desktops) */
+@media (min-width: 901px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    form {
+        padding: 30px;
+    }
+
+    input, select, button {
+        font-size: 16px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+}
