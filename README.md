@@ -68,12 +68,10 @@ The model's accuracy and precision were deemed acceptable, and further tuning or
 
      ```bash
      python train_model.py
-    ```
+     ```
 ### 4. **Run the Flask App**
     - After training the model, run the Flask web application using the following command:
+    
     ```bash
     python app.py
-  ```
-
-
-
+    ```
